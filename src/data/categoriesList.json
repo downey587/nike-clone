@@ -1,0 +1,11 @@
+{
+    "categoriesList": [
+        { "link": "#", "title": "Shoes" },
+        { "link": "#", "title": "Clothing" },
+        { "link": "#", "title": "Jordan" },
+        { "link": "#", "title": "Lifestyle" },
+        { "link": "#", "title": "Running" },
+        { "link": "#", "title": "Basketball" },
+        { "link": "#", "title": "Soccer" }
+    ]
+}
