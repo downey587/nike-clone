@@ -23,15 +23,15 @@ function FiltersBlock( { className, onClick } ) {
 
     return (
         <div className={ className }>
-            <div className="absolute">
+            <div className="absolute min-[960px]:hidden">
                 <h1 className="text-base mt-9 flex-auto"> Filter </h1>
             </div>
 
-            <button onClick={ onClick } className="w-8 h-8 bg-slate-950 rounded-full text-white font-semibold text-lg sticky top-5 float-right">
+            <button onClick={ onClick } className="w-8 h-8 bg-slate-950 rounded-full text-white font-semibold text-lg sticky top-5 float-right min-[960px]:hidden">
                 ✖ 
             </button>
 
-            <section className="w-full h-auto mt-24 pb-5 border-b">
+            <section className="w-full h-auto mt-24 pb-5 border-b min-[960px]:mt-6">
                 <p className="text-base font-semibold mb-7"> Sort By </p>
 
                 { sortByListLabels }

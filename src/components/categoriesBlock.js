@@ -15,10 +15,10 @@ function CategoriesBlock() {
     );
 
     return (
-        <div className="w-full h-auto">
+        <div className="w-full h-auto min-[960px]:w-full">
             <div className="w-full h-auto">
                 <nav>
-                    <ul className="flex space-x-8 overflow-x-scroll no-scrollbar px-5">
+                    <ul className="flex space-x-8 overflow-x-scroll no-scrollbar px-5 min-[960px]:flex-col min-[960px]:space-x-0 min-[960px]:space-y-2 min-[960px]:px-0">
                         { categoriesListElements }
                     </ul>
                 </nav>
