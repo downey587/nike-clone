@@ -28,7 +28,7 @@ function AllItemsList() {
     );
 
     return (
-        <div className="w-full h-auto grid grid-cols-2 gap-2 min-[960px]:grid-cols-3 min-[960px]:w-3/4">
+        <div className="w-full h-auto grid grid-cols-2 gap-2 min-[960px]:grid-cols-3 min-[960px]:w-4/5">
             { listOfItems }
         </div>
     );

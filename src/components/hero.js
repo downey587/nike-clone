@@ -16,6 +16,7 @@ function Hero() {
     return (
         <div>
             <TextBlock text={ "SHOP ALL NEW ARRIVALS" } />
+            
             <div className="min-[960px]:flex items-center min-[960px]:px-7">
                 <HeaderTitle title={ "New Releases" } />
             </div>
