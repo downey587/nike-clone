@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nike-clone/static/css/main.455d0da6.css",
+    "main.js": "/nike-clone/static/js/main.da3d2989.js",
+    "static/js/787.a0352174.chunk.js": "/nike-clone/static/js/787.a0352174.chunk.js",
+    "static/media/itemImg.png": "/nike-clone/static/media/itemImg.043a14a9043b9b90fbc4.png",
+    "static/media/next-sign.svg": "/nike-clone/static/media/next-sign.e647e0acdbb8c44850b63298c4de9ebc.svg",
+    "static/media/filters.svg": "/nike-clone/static/media/filters.f9f685e5760cf3460f7809a365ee17a1.svg",
+    "index.html": "/nike-clone/index.html",
+    "static/media/bag.svg": "/nike-clone/static/media/bag.7b9b0b9ab0bdd67a8f7522dc2cf4a24e.svg",
+    "static/media/logo.svg": "/nike-clone/static/media/logo.44b9d8752d8744102a2fd3a7d2b65607.svg",
+    "static/media/search.svg": "/nike-clone/static/media/search.aa58904ba67757220d24545b21a52e61.svg",
+    "static/media/menu.svg": "/nike-clone/static/media/menu.d1d4e0b73eb4b87c58c50cda51587aff.svg",
+    "static/media/pick-up-button.svg": "/nike-clone/static/media/pick-up-button.6f136d6c9c1755926a9f8f4d0d1ee887.svg",
+    "main.455d0da6.css.map": "/nike-clone/static/css/main.455d0da6.css.map",
+    "main.da3d2989.js.map": "/nike-clone/static/js/main.da3d2989.js.map",
+    "787.a0352174.chunk.js.map": "/nike-clone/static/js/787.a0352174.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.455d0da6.css",
+    "static/js/main.da3d2989.js"
+  ]
+}
