@@ -29,7 +29,11 @@ function NavBar() {
 
     const navBarLinksList = [
         { "link": "#", "title": "New & Featured" },
-        { "link": "#", "title": "Men" }
+        { "link": "#", "title": "Men" },
+        { "link": "#", "title": "Women" },
+        { "link": "#", "title": "Kids" },
+        { "link": "#", "title": "Accessories" },
+        { "link": "#", "title": "Sale" }
     ];
 
     const displayNavBarLinksList = navBarLinksList.map( item => 
@@ -40,7 +44,7 @@ function NavBar() {
         <div className="w-full h-14 flex justify-between items-center min-[960px]:px-5">
             <LogoBlock logo={ logo } />
 
-            <div className="w-1/2 h-auto hidden justify-center items-center min-[960px]:flex">
+            <div className=" w-4/6 h-auto hidden justify-center items-center mr-28 min-[960px]:flex">
                 <nav>
                     <ul className="w-auto h-auto flex space-x-6">
                         { displayNavBarLinksList }

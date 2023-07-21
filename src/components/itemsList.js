@@ -1,11 +1,16 @@
 import { React } from "react";
-import img from "../assets/itemImg.png";
-import data from "../data/itemsList.json";
 
-function ItemBlock( { src, alt, message, title, desc, colors, price  } ) {
+export function ItemBlock( { src, alt, message, title, desc, colors, price, gender  } ) {
     let colorsText;
 
     colors > 1 ? colorsText = "Colors" : colorsText = "Color";
+
+    let descContent;
+
+    if ( gender === "men" ) descContent = "Men's ";
+    else if ( gender === "women" ) descContent = "Women's ";
+    else if ( gender === "kids" ) descContent = "Kids' ";
+    else if ( gender === "unisex" ) descContent = "Unisex' ";
     
     return (
         <div className="w-auto h-auto">
@@ -14,7 +19,7 @@ function ItemBlock( { src, alt, message, title, desc, colors, price  } ) {
             <div className="w-auto h-auto p-3">
                 <p className="text-sm text-red-600"> { message } </p>
                 <p className="text-sm text-black"> { title } </p>
-                <p className="text-sm text-gray-500"> { desc } </p>
+                <p className="text-sm text-gray-500"> { descContent } { desc }  </p>
                 <p className="text-sm text-gray-500"> { colors } { colorsText } </p>
                 <p className="text-sm text-black pt-3"> ${ price } </p>
             </div>
@@ -22,11 +27,7 @@ function ItemBlock( { src, alt, message, title, desc, colors, price  } ) {
     );
 }
 
-function AllItemsList() {
-    const listOfItems = data.itemsList.map( item => 
-        <ItemBlock src={ img } alt={ "item img." } message={ item.message } title={ item.title } desc={ item.desc } colors={ item.colors } price={ item.price } />    
-    );
-
+function AllItemsList( { listOfItems } ) {
     return (
         <div className="w-full h-auto grid grid-cols-2 gap-2 min-[960px]:grid-cols-3 min-[960px]:w-4/5">
             { listOfItems }
